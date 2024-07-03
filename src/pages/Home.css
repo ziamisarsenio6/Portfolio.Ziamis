@@ -1,0 +1,274 @@
+.container1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#info .card{
+  background-color: rgb(88, 206, 88);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(0.4);
+    }
+}
+
+/*  */
+
+#banner {
+    min-height: 20vh;
+    background: linear-gradient(to right, hsl(144, 37%, 64%), rgb(0, 0, 0));
+    background-size: cover;
+    padding-top: 0;
+}
+
+#banner .text {
+    color: #7ea13d;
+}
+
+#banner img {
+    width: 500px;
+    
+}
+
+
+#banner .ok {
+    margin-top: 120px;
+}
+
+#banner .self {
+    font-size: 30px;
+    font-weight: 5;
+    font-style: italic;
+}
+
+#banner .card {
+    background: transparent;
+    border: 0;
+}
+
+.btn {
+    transition: all 0.4s ease;
+    border-radius: 3;
+}
+
+#banner .card .btn-brand {
+    color: #ffffff;
+    background: rgb(168, 182, 40);
+}
+
+#banner .card .btn-brand:hover {
+    color: #ffffff;
+    background-color: rgb(21, 112, 139);
+    font-weight: 800;
+}
+
+#info .btn-brand {
+    color: #ffffff;
+    background: rgb(169, 179, 178);
+}
+
+#info .btn-brand:hover {
+    color: #ffffff;
+    background-color: rgb(177, 196, 196);
+    font-weight: 800;
+}
+
+.footer_section {
+    background-color: #096285;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer_section .footer-info {
+    text-align: center;
+}
+
+.footer_section .footer-info p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+  /*  */
+
+#info {
+    background: #fff;
+    background-size: cover;
+    margin-top: 100px
+}
+
+#info img {
+    width: 150px;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    filter: drop-shadow(15px 8px 2px rgba(0, 0, 0, 0.374));
+}
+
+#game {
+    min-height: 100vh;
+    background: rgb(175, 197, 110);
+    padding-top: 0;
+}
+
+#game .card {
+    background: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+#game h3 {
+    color: rgb(255,255,255);
+    margin-left: 20%;
+}
+
+#game h4 {
+    color: rgb(255,255,255);
+}
+
+#game img {
+    width: 500px;
+    align-self: center;
+    transition: .5s ease-out;
+}
+
+#game img:hover {
+    width: 650px;
+    align-self: center;
+    transition: .5s;
+}
+
+/*  */
+
+
+  
+  @-webkit-keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+ 
+  @-webkit-keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @keyframes move-forever1 {
+    0% {
+      transform: translate(85px, 0%);
+    }
+  
+    100% {
+      transform: translate(-90px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever2 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @-webkit-keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  
+  @keyframes move-forever3 {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+  
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
